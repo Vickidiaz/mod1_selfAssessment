@@ -57,19 +57,6 @@ nav {
   font-size: 3ex;
 }
 
-/* question 6. */
-/* .creative-content {
-  background-color: #f0f0f0;
-  padding: 20px;
-} */
-
-/* Style for the content container */
-/* .content-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start; /* Align the text content to the top
-} *?
-
 /* Style for the flower image */
 .flower-image {
   position: fixed; /* Use sticky positioning for the flower image */
