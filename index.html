@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- Include your CSS file -->
+
+    <title>Document</title>
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <!-- # is a placeholder for link -->
+            <!-- for this assignment just creating nav bar not sending to other links -->
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <header>
+            <h1>Main Header</h1>
+        </header>
+
+        <!-- Subheaders and Sections -->
+        <!-- The <code></code> element is used here to represent HTML code or inline text that should be displayed as-is. So it is not being interpreted as actual HTML elements. 
+            The &lt; and &gt; within the <code></code> tags are HTML character that represent brackets < and >. Used to display these symbols as plain text, preventing the browser from treating them as HTML tags. -->
+
+        <section>
+            <h2>List of 10 Most Useful HTML Tags. (Subheader 1)</h2>
+            <p>Content for subheader 1.</p>
+            <ol>
+                <li><code>&lt;div&gt;</code> - This tag is used for grouping and styling content.</li>
+                <li><code>&lt;span&gt;</code> - This tag is an inline container used to mark up a part of a text, or a
+                    part of a document.</li>
+                <li><code>&lt;ul&gt;</code> - This tag is used to create an unordered list.</li>
+                <li><code>&lt;li&gt;</code> - This tag is used to define an list item.</li>
+                <li><code>&lt;p&gt;</code> - This tag is used to define a paragraph.</li>
+                <li><code>&lt;a&gt;</code> - This tag defines a hyperlink. It is used to link from one page to another
+                </li>
+                <li><code>&lt;footer&gt;</code> - This tag is used to create a footer for a document or section.</li>
+                <li><code>&lt;h1&gt; to &lt;h6&gt;</code> - This tag is used to create headings. Remeber 1 h1 per page.
+                </li>
+                <li><code>&lt;header&gt;</code> - This tag defines a header for a document or section.</li>
+                <li><code>&lt;nav&gt;</code> - This tag is used to provide navigation links, either within the current
+                    document or to other documents.</li>
+
+            </ol>
+        </section>
+
+        <section>
+            <h2>Search Engine Optimization (SEO) Imprtnat Header Tags (Subheader 2)</h2>
+            <p>Content for subheader 2.</p>
+            <p>SEO (Search Engine Optimization) is the process of making a website more visible in search results, also
+                termed improving search rankings. Source: <a
+                    href="https://developer.mozilla.org/en-US/docs/Glossary/SEO" target="_blank"
+                    rel="noopener noreferrer">Mozilla Developer Network</a></p>
+            <!-- <p>
+                Source: <a href="https://developer.mozilla.org/en-US/docs/Glossary/SEO" target="_blank"
+                    rel="noopener noreferrer">Mozilla Developer Network</a>
+            </p> -->
+            <p>Here are some SEO stratigies I reserached and a list of some HTML tags that can help.</p>
+            <ol>
+                <li>Incorporate relevant keywords into your content using various HTML tags. They are:</li>
+                <ul>
+                    <li>&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, etc. for structuring headers and titles.</li>
+                    <li>&lt;p&gt; for paragraph content.</li>
+                    <li>&lt;a&gt; for creating keyword-rich hyperlinks.</li>
+                    <li>&lt;strong&gt; and &lt;em&gt; for emphasizing important keywords and phrases.</li>
+                    <li>&lt;meta&gt; tags, specifically &lt;meta name="keywords"&gt; (though its impact is limited in
+                        modern SEO).</li>
+                </ul>
+
+                <li>Optimize meta tags and headings to improve SEO:</li>
+                <ul>
+                    <li>&lt;title&gt;: Define a keyword-rich page title in the &lt;title&gt; tag.</li>
+                    <li>&lt;meta name="description"&gt;: Craft a compelling meta description summarizing content.</li>
+                    <li>&lt;meta name="keywords"&gt;: List relevant keywords in the &lt;meta&gt; tag.</li>
+                    <li>&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, etc.: Structure content with header tags, including target
+                        keywords.</li>
+                </ul>
+                <li>Use Descriptive Anchor Text for Internal Links:</li>
+                <ul>
+                    <li>&lt;a&gt; tag: Within the &lt;a&gt; tag, use descriptive anchor text that clearly indicates the
+                        topic or destination of the linked page.</li>
+                </ul>
+            </ol>
+
+        </section>
+
+        <section>
+            <h2>Creating a Grid 3x3(Subheader 3)</h2>
+            <p>Content for subheader 3.</p>
+            <p>3x3 grid using only div and span tags.</p>
+            <!-- Adding empty <span></span> to cretae space between the numbers -->
+            <div><span>1</span><span> </span><span>2</span> <span></span><span>3</span></div>
+            <div><span>4</span><span> </span><span>5</span> <span></span><span>6</span></div>
+            <div><span>7</span><span> </span><span>8</span> <span></span><span>9</span></div>
+        </section>
+
+        <section>
+            <h2>Gallery That Showcases the Options For the Box Model (Subheader 4)</h2>
+            <p>Content for subheader 4.</p>
+            <!-- Gallery -->
+            <div class="box" id="box1">Box 1</div>
+            <div class="box" id="box2">Box 2</div>
+            <div class="box" id="box3">Box 3</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Same Text, Different Font Size(Subheader 5)</h2>
+            <p>Content for subheader .</p>
+            <li class="pixels">Same Text</li>
+            <p>pixels (Common font size for digital screens, like websites or mobile apps.)</p>
+            <li class="picas">Same Text</li>
+            <p>Picas (Useful for print media layouts, like magazines or brochures.)</p>
+            <li class="ex">Same Text</li>
+            <p>ex (x-height of the element's font. Useful for controlling text height, ensuring that text
+                lines up consistently.)</p>
+            <li class="percentage">Same Text </li>
+            <p>Percentage (Relative size based on the parent element's size. Useful for scaling text
+                proportionally, making text larger or smaller within a container.)</p>
+            <li class="em">Same Text</li>
+            <p> em (Relative to the parent element's font size. Useful for responsive design, adjusting
+                text size based on the parent container.)</p>
+            <li class="centimeters">Same Text</li>
+            <p>Centimeters (Useful for precise document layouts, like in legal documents
+                or academic papers.)</p>
+
+
+        </section>
+
+        <section>
+            <h2>4 Different Positionings (Subheader 6)</h2>
+            <div class="content-container">
+                <div class="text-content">
+                    <ol>
+                        <li>The sticky position is being used on the nav bar of this page. As soon as you scroll out of
+                            page,
+                            it becomes fixed and stays in one place.</li>
+                        <li>The fixed positiong is being used on the flower picture on the right. The item stays in the
+                            same
+                            position on the page as you move.</li>
+                        <li>The static position is being applied to the black square below. Stays in it position.</li>
+                        <li>The realtive position is being used on red square. Relative uses the top, bottom, left, and
+                            right properties to create overlap.</li>
+                    </ol>
+                </div>
+
+                <!-- Add the flower image within a div with a fixed position -->
+                <div class="flower-image">
+                    <img src="images/flower.jpg" alt="Beautiful Flower">
+                </div>
+
+            </div>
+            <div class="static-square"></div>
+            <div class="relative-square"></div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Vicki Webpage Footer</p>
+    </footer>
+</body>
+
+</html>

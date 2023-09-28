@@ -1,0 +1,148 @@
+/* body {
+  background-color: rgb(218, 239, 183);
+} */
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: right; /* Right-align the navigation items */
+}
+
+nav li {
+  display: inline-block; /* Display list items horizontally */
+  margin-left: 10px; /* Add some spacing between items */
+  border: 3px solid black; /* Add a border around each item */
+  padding: 5px 10px; /* Add padding inside each item */
+  background-color: #f0f0f0; /* Background color for each item */
+  border-radius: 20px; /* Make the border round */
+}
+/* question 6. used to show sticky position */
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.box {
+  display: inline-block; /* This makes the boxes appear side by side */
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  margin: 10px; /* Adjust the margin to create spacing between boxes */
+  border: 2px solid black; /* Example border style */
+  padding: 10px; /* Example padding */
+}
+
+/* question 5. same text, different font */
+.picas {
+  font-size: 1pc;
+}
+
+.centimeters {
+  font-size: 1cm;
+}
+
+.pixels {
+  font-size: 12px;
+}
+
+.em {
+  font-size: 2em;
+}
+
+.percentage {
+  font-size: 150%;
+}
+
+.ex {
+  font-size: 3ex;
+}
+
+/* question 6. */
+/* .creative-content {
+  background-color: #f0f0f0;
+  padding: 20px;
+} */
+
+/* Style for the content container */
+/* .content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Align the text content to the top
+} *?
+
+/* Style for the flower image */
+.flower-image {
+  position: fixed; /* Use sticky positioning for the flower image */
+  top: 0; /* Stick to the top of the container */
+  margin-left: 20px; /* Add some space between the text and the image */
+}
+
+/* Adjust the width and other styles as needed */
+.flower-image img {
+  width: 150px; /* Adjust the width to your preference */
+  border: 1px solid #ccc; /* Optional border style */
+  padding: 10px; /* Optional padding */
+  background-color: white; /* Optional background color */
+}
+
+/* Statically positioned square */
+.static-square {
+  position: static;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
+/* Relatively positioned square */
+.relative-square {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  left: 40px;
+  top: -70px;
+  /* bottom: 70; */
+}
+
+/* Basic styling for the gallery */
+/* Common styling for all boxes */
+.box {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  font-size: 18px;
+  display: inline-block; /* Display boxes side by side */
+  margin: 10px; /* margin between the boxes */
+  box-sizing: border-box; /*Include padding and border in the width and height */
+  vertical-align: top; /* Align boxes at the top to maintain consistent heights */
+}
+
+/* Box 1 - Different padding, margin, and border than the other 2 */
+#box1 {
+  font-size: 1.6rem; /* font size */
+  width: 250px; /*  width */
+  height: 150px; /*  height */
+  border: 5px solid red; /*  border style */
+  padding-top: 10px; /* padding */
+  margin: 20px; /* S margin */
+}
+
+/* Box 2 - Different padding, margin, and border than the other 2 */
+#box2 {
+  font-size: 1.6rem; /* Set the font size */
+  width: 250px; /* width */
+  height: 150px; /* height */
+  border: 15px dashed orange; /*  border style */
+  padding-top: 90px; /* padding */
+  margin: 20px; /* margin */
+}
+
+/* Box 3 - Different padding, margin, and border than the other 2 */
+#box3 {
+  font-size: 1.6rem; /* font size */
+  width: 250px; /*  width */
+  height: 150px; /* height */
+  border: 20px solid yellow; /* Border style */
+  padding: 30px; /* Padding */
+  margin: 20px; /* Margin */
+}
