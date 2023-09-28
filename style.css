@@ -17,11 +17,12 @@ nav ul {
 
 nav li {
   display: inline-block; /* Display list items horizontally */
-  margin-left: 10px; /* Add some spacing between items */
-  border: 3px solid black; /* Add a border around each item */
-  padding: 5px 10px; /* Add padding inside each item */
-  background-color: #f0f0f0; /* Background color for each item */
+  margin-left: 10px; /* spacing between items */
+  border: 3px solid black; /* border around each item */
+  padding: 5px 10px; /*  padding inside each item */
+  background-color: #66804a;
   border-radius: 20px; /* Make the border round */
+  color: black;
 }
 /* question 6. used to show sticky position */
 nav {
@@ -82,7 +83,7 @@ nav {
   width: 150px;
   border: 1px solid #ccc;
   padding: 10px;
-  background-color: white;
+  background-color: rgb(108, 112, 71);
 }
 
 /* Statically positioned square */
@@ -145,4 +146,11 @@ nav {
   border: 20px solid yellow; /* Border style */
   padding: 30px; /* Padding */
   margin: 20px; /* Margin */
+}
+
+footer {
+  position: sticky;
+  bottom: 0;
+  color: black; /* Optional text color for the footer */
+  text-align: center; /* Center align the text horizontally */
 }
