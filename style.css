@@ -64,12 +64,11 @@ nav {
   margin-left: 20px; /* Add some space between the text and the image */
 }
 
-/* Adjust the width and other styles as needed */
 .flower-image img {
-  width: 150px; /* Adjust the width to your preference */
-  border: 1px solid #ccc; /* Optional border style */
-  padding: 10px; /* Optional padding */
-  background-color: white; /* Optional background color */
+  width: 150px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: white;
 }
 
 /* Statically positioned square */
@@ -91,7 +90,6 @@ nav {
   /* bottom: 70; */
 }
 
-/* Basic styling for the gallery */
 /* Common styling for all boxes */
 .box {
   width: 150px;
